@@ -1,0 +1,20 @@
+{
+  "name": "stripe-app",
+  "version": "1.0.0",
+  "description": "create a nodejs app for payments using stripe api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MennaHisham/stripe-api.git"
+  },
+  "author": "Minatallah Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MennaHisham/stripe-api/issues"
+  },
+  "homepage": "https://github.com/MennaHisham/stripe-api#readme"
+}
