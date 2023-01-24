@@ -4,6 +4,7 @@
   "description": "create a nodejs app for payments using stripe api",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/MennaHisham/stripe-api/issues"
   },
-  "homepage": "https://github.com/MennaHisham/stripe-api#readme"
+  "homepage": "https://github.com/MennaHisham/stripe-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "logger": "^0.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
 }
